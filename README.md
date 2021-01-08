@@ -1,67 +1,22 @@
-![संभव](https://fontmeme.com/permalink/210105/969ea6d61fc59fdf9fa681c5f4f56a23.png)
-
-
-## हम है तो अपनों से जुरना संभव है
-
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://murmuring-mesa-21077.herokuapp.com/)
-
-![screenshot](https://i.ibb.co/SNPMXh1/Screenshot-2021-01-06-200620.jpg)
-Video Calling Application
-
-# New Features!
-
-  - Whiteboard
-  - Chat
-
-### Tech
-
-संभव uses a number of open source projects to work properly:
-
-* [Node.JS]  evented I/O for the backend
-* Material_UI
-* Socket.io
-* PeerJS
-* ReactJS
-
 And of course संभव itself is open source with a [Repository] on GitHub.
 
 ### Installation
 
-संभव  requires [Node.js](https://nodejs.org/) v4+ to run.
-
 Install the dependencies and devDependencies and start the server.
 
-```sh
-$ cd Caller
-$ npm install -d
-$ npm start
-```
+Clone this project
 
-For production environments...
+pip3 install -r requirements.txt
 
-```sh
-create an .env file
-```
-### Development
+Change the password in db.yaml to that of your MySQL's password
 
-Want to contribute? Great!
+Create a database named flaskapp3
 
-FORK the repository 
+create table using:
+CREATE TABLE users (roll VARCHAR(100), name VARCHAR(100), maths VARCHAR(100),physics VARCHAR(100), chemistry VARCHAR(100), total VARCHAR(100), per VARCHAR(100));
 
-### Todos
+Run the application by executing the command python3 app.py
 
- - AI Face Recognition
+The application runs on localhost:5000
 
-License
-----
-
-MIT
-
-**Free Software, Hell Yeah!**
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-   [node.js]: <http://nodejs.org>
-   [express]: <http://expressjs.com>
-   [Repository]:<https://github.com/fantasy-08/CPLOVE>
+   [Repository]:   https://github.com/Vaibhav1720/Student-Marks
