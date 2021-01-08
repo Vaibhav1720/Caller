@@ -1,4 +1,4 @@
-And of course संभव itself is open source with a [Repository] on GitHub.
+
 
 ### Installation
 
